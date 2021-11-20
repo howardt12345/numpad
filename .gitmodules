@@ -1,0 +1,12 @@
+[submodule "PCB/MX_Alps_Hybrid.pretty"]
+	path = PCB/MX_Alps_Hybrid.pretty
+	url = https://github.com/ai03-2725/MX_Alps_Hybrid.pretty
+[submodule "PCB/kicad-libraries"]
+	path = PCB/kicad-libraries
+	url = https://github.com/sszczep/kicad-libraries/
+[submodule "PCB/random-keyboard-parts.pretty"]
+	path = PCB/random-keyboard-parts.pretty
+	url = https://github.com/ai03-2725/random-keyboard-parts.pretty
+[submodule "PCB/KiCad-SSD1306-128x64"]
+	path = PCB/KiCad-SSD1306-128x64
+	url = https://github.com/pforrmi/KiCad-SSD1306-128x64
