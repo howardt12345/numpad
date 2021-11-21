@@ -1,0 +1,1279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>D:\Projects\Misc\KiCad\numpad\PCB\numpad.sch</source>
+    <date>11/21/2021 5:14:02 PM</date>
+    <tool>Eeschema (5.1.10)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>numpad.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>AVR-ISP-6</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical</footprint>
+      <datasheet> ~</datasheet>
+      <fields>
+        <field name="JLCPCB BOM">0</field>
+      </fields>
+      <libsource lib="Connector" part="AVR-ISP-6" description="Atmel 6-pin ISP connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61988178</tstamp>
+    </comp>
+    <comp ref="MX4">
+      <value>7</value>
+      <footprint>CherryMX_PCB_KailhSocket_LTST-A683CEGBW:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW</footprint>
+      <fields>
+        <field name="JLCPCB BOM">0</field>
+      </fields>
+      <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>619D2053</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>SOD-123</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>619D2352</tstamp>
+    </comp>
+    <comp ref="LC4">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C15850</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>619D235C</tstamp>
+    </comp>
+    <comp ref="MX5">
+      <value>8</value>
+      <footprint>CherryMX_PCB_KailhSocket_LTST-A683CEGBW:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW</footprint>
+      <fields>
+        <field name="JLCPCB BOM">0</field>
+      </fields>
+      <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>619D2380</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>SOD-123</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>619D2395</tstamp>
+    </comp>
+    <comp ref="LC5">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C15850</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>619D239F</tstamp>
+    </comp>
+    <comp ref="MX6">
+      <value>9</value>
+      <footprint>CherryMX_PCB_KailhSocket_LTST-A683CEGBW:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW</footprint>
+      <fields>
+        <field name="JLCPCB BOM">0</field>
+      </fields>
+      <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>619D23C2</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>SOD-123</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>619D23D7</tstamp>
+    </comp>
+    <comp ref="LC6">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C15850</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>619D23E1</tstamp>
+    </comp>
+    <comp ref="OLED1">
+      <value>SSD1306</value>
+      <footprint>KiCad-SSD1306-128x64:128x64OLED</footprint>
+      <fields>
+        <field name="JLCPCB BOM">0</field>
+      </fields>
+      <libsource lib="SSD1306-128x64_OLED" part="SSD1306" description="SSD1306 OLED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>623A537C</tstamp>
+    </comp>
+    <comp ref="ROT1">
+      <value>Rotary_Encoder_Switch</value>
+      <footprint>Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB BOM">0</field>
+      </fields>
+      <libsource lib="Device" part="Rotary_Encoder_Switch" description="Rotary encoder, dual channel, incremental quadrate outputs, with switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6273D96F</tstamp>
+    </comp>
+    <comp ref="ROT2">
+      <value>Rotary_Encoder_Switch</value>
+      <footprint>Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB BOM">0</field>
+      </fields>
+      <libsource lib="Device" part="Rotary_Encoder_Switch" description="Rotary encoder, dual channel, incremental quadrate outputs, with switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>627911D5</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x04_Female</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB BOM">0</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>629F8BD8</tstamp>
+    </comp>
+    <comp ref="RD2">
+      <value>SOD-123</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>636C9F55</tstamp>
+    </comp>
+    <comp ref="RD1">
+      <value>SOD-123</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6376E95C</tstamp>
+    </comp>
+    <comp ref="MX1">
+      <value>NUM_LOCK</value>
+      <footprint>CherryMX_PCB_KailhSocket_LTST-A683CEGBW:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW</footprint>
+      <fields>
+        <field name="JLCPCB BOM">0</field>
+      </fields>
+      <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>639E5696</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>SOD-123</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>639E5EDF</tstamp>
+    </comp>
+    <comp ref="LC1">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C15850</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>639E5EE9</tstamp>
+    </comp>
+    <comp ref="MX2">
+      <value>/</value>
+      <footprint>CherryMX_PCB_KailhSocket_LTST-A683CEGBW:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW</footprint>
+      <fields>
+        <field name="JLCPCB BOM">0</field>
+      </fields>
+      <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>639E5F0A</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>SOD-123</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>639E5F1F</tstamp>
+    </comp>
+    <comp ref="LC2">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C15850</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>639E5F29</tstamp>
+    </comp>
+    <comp ref="MX3">
+      <value>*</value>
+      <footprint>CherryMX_PCB_KailhSocket_LTST-A683CEGBW:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW</footprint>
+      <fields>
+        <field name="JLCPCB BOM">0</field>
+      </fields>
+      <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>639E5F4A</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>SOD-123</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>639E5F5F</tstamp>
+    </comp>
+    <comp ref="LC3">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C15850</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>639E5F69</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C17710</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61D3EFC3</tstamp>
+    </comp>
+    <comp ref="MX8">
+      <value>4</value>
+      <footprint>CherryMX_PCB_KailhSocket_LTST-A683CEGBW:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW</footprint>
+      <fields>
+        <field name="JLCPCB BOM">0</field>
+      </fields>
+      <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63AB7476</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>SOD-123</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63AB798F</tstamp>
+    </comp>
+    <comp ref="MX9">
+      <value>5</value>
+      <footprint>CherryMX_PCB_KailhSocket_LTST-A683CEGBW:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW</footprint>
+      <fields>
+        <field name="JLCPCB BOM">0</field>
+      </fields>
+      <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63AB79BA</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>SOD-123</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63AB79CF</tstamp>
+    </comp>
+    <comp ref="LC9">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C15850</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63AB79D9</tstamp>
+    </comp>
+    <comp ref="MX10">
+      <value>6</value>
+      <footprint>CherryMX_PCB_KailhSocket_LTST-A683CEGBW:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW</footprint>
+      <fields>
+        <field name="JLCPCB BOM">0</field>
+      </fields>
+      <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63AB79FA</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>SOD-123</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63AB7A0F</tstamp>
+    </comp>
+    <comp ref="LC10">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C15850</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63AB7A19</tstamp>
+    </comp>
+    <comp ref="MX11">
+      <value>+</value>
+      <footprint>CherryMX_KailhSocket_StabWireBottom_LTST-A683CEGBW:CherryMX_2.00u_KailhSocket_StabWireBottom_LTST-A683CEGBW</footprint>
+      <fields>
+        <field name="JLCPCB BOM">0</field>
+      </fields>
+      <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63ADCCDA</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>SOD-123</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63ADD325</tstamp>
+    </comp>
+    <comp ref="LC11">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C15850</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63ADD32F</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>SOD-123</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63B44C20</tstamp>
+    </comp>
+    <comp ref="LC7">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C15850</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63B44C2A</tstamp>
+    </comp>
+    <comp ref="MX12">
+      <value>1</value>
+      <footprint>CherryMX_PCB_KailhSocket_LTST-A683CEGBW:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW</footprint>
+      <fields>
+        <field name="JLCPCB BOM">0</field>
+      </fields>
+      <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63B762B2</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>SOD-123</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63B769C9</tstamp>
+    </comp>
+    <comp ref="LC12">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C15850</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63B769D3</tstamp>
+    </comp>
+    <comp ref="MX13">
+      <value>2</value>
+      <footprint>CherryMX_PCB_KailhSocket_LTST-A683CEGBW:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW</footprint>
+      <fields>
+        <field name="JLCPCB BOM">0</field>
+      </fields>
+      <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63B769F4</tstamp>
+    </comp>
+    <comp ref="D13">
+      <value>SOD-123</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63B76A09</tstamp>
+    </comp>
+    <comp ref="LC13">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C15850</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63B76A13</tstamp>
+    </comp>
+    <comp ref="MX14">
+      <value>3</value>
+      <footprint>CherryMX_PCB_KailhSocket_LTST-A683CEGBW:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW</footprint>
+      <fields>
+        <field name="JLCPCB BOM">0</field>
+      </fields>
+      <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63B76A34</tstamp>
+    </comp>
+    <comp ref="D14">
+      <value>SOD-123</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63B76A49</tstamp>
+    </comp>
+    <comp ref="LC14">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C15850</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63B76A53</tstamp>
+    </comp>
+    <comp ref="MX15">
+      <value>0</value>
+      <footprint>CherryMX_KailhSocket_StabWireBottom_LTST-A683CEGBW:CherryMX_2.00u_KailhSocket_StabWireBottom_LTST-A683CEGBW</footprint>
+      <fields>
+        <field name="JLCPCB BOM">0</field>
+      </fields>
+      <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63BAE3D4</tstamp>
+    </comp>
+    <comp ref="D15">
+      <value>SOD-123</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63BAEC1D</tstamp>
+    </comp>
+    <comp ref="MX16">
+      <value>.</value>
+      <footprint>CherryMX_PCB_KailhSocket_LTST-A683CEGBW:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW</footprint>
+      <fields>
+        <field name="JLCPCB BOM">0</field>
+      </fields>
+      <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63BAEC48</tstamp>
+    </comp>
+    <comp ref="D16">
+      <value>SOD-123</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63BAEC5D</tstamp>
+    </comp>
+    <comp ref="LC16">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C15850</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63BAEC67</tstamp>
+    </comp>
+    <comp ref="MX17">
+      <value>Enter</value>
+      <footprint>CherryMX_KailhSocket_StabWireBottom_LTST-A683CEGBW:CherryMX_2.00u_KailhSocket_StabWireBottom_LTST-A683CEGBW</footprint>
+      <fields>
+        <field name="JLCPCB BOM">0</field>
+      </fields>
+      <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63BAEC88</tstamp>
+    </comp>
+    <comp ref="D17">
+      <value>SOD-123</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63BAEC9D</tstamp>
+    </comp>
+    <comp ref="LC17">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C15850</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63BAECA7</tstamp>
+    </comp>
+    <comp ref="MX18">
+      <value>Backspace</value>
+      <footprint>CherryMX_PCB_KailhSocket_LTST-A683CEGBW:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW</footprint>
+      <fields>
+        <field name="JLCPCB BOM">0</field>
+      </fields>
+      <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63C0F195</tstamp>
+    </comp>
+    <comp ref="D18">
+      <value>SOD-123</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C81598</field>
+      </fields>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63C0FAAA</tstamp>
+    </comp>
+    <comp ref="LC18">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C15850</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63C0FAB4</tstamp>
+    </comp>
+    <comp ref="LC8">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C15850</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63AB7999</tstamp>
+    </comp>
+    <comp ref="LC15">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C15850</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63BAEC27</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>ProMicro</value>
+      <footprint>promicro:ProMicro</footprint>
+      <fields>
+        <field name="JLCPCB BOM">0</field>
+      </fields>
+      <libsource lib="promicro" part="ProMicro" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63D994F9</tstamp>
+    </comp>
+    <comp ref="MX7">
+      <value>-</value>
+      <footprint>CherryMX_PCB_KailhSocket_LTST-A683CEGBW:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW</footprint>
+      <fields>
+        <field name="JLCPCB BOM">0</field>
+      </fields>
+      <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>63B4456F</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push</value>
+      <footprint>random-keyboard-parts:SKQG-1155865</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C318884</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6198D36E</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC Part">C17414</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6198FF4A</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="CherryMX" part="CherryMX_LTST-A683CEGBW">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CherryMX_LTST-A683CEGBW</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="VSS" type="power_in"/>
+        <pin num="4" name="DIN" type="input"/>
+        <pin num="5" name="DOUT" type="output"/>
+        <pin num="6" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="AVR-ISP-6">
+      <description>Atmel 6-pin ISP connector</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>IDC?Header*2x03*</fp>
+        <fp>Pin?Header*2x03*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">AVR-ISP-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="MISO" type="passive"/>
+        <pin num="2" name="VCC" type="passive"/>
+        <pin num="3" name="SCK" type="passive"/>
+        <pin num="4" name="MOSI" type="passive"/>
+        <pin num="5" name="~RST" type="passive"/>
+        <pin num="6" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Female">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Small">
+      <description>Diode, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Rotary_Encoder_Switch">
+      <description>Rotary encoder, dual channel, incremental quadrate outputs, with switch</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>RotaryEncoder*Switch*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">Rotary_Encoder_Switch</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="B" name="B" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+        <pin num="S1" name="S1" type="passive"/>
+        <pin num="S2" name="S2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SSD1306-128x64_OLED" part="SSD1306">
+      <description>SSD1306 OLED</description>
+      <footprints>
+        <fp>SSD1306-128x64_OLED:SSD1306</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Brd</field>
+        <field name="Value">SSD1306</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="VCC" type="input"/>
+        <pin num="3" name="SCL" type="input"/>
+        <pin num="4" name="SDA" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="promicro" part="ProMicro">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ProMicro</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TX" type="BiDi"/>
+        <pin num="2" name="RX" type="BiDi"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="SDA" type="BiDi"/>
+        <pin num="6" name="SCL" type="BiDi"/>
+        <pin num="7" name="D4" type="BiDi"/>
+        <pin num="8" name="C6" type="BiDi"/>
+        <pin num="9" name="D7" type="BiDi"/>
+        <pin num="10" name="E6" type="BiDi"/>
+        <pin num="11" name="B4" type="BiDi"/>
+        <pin num="12" name="B5" type="BiDi"/>
+        <pin num="13" name="B6" type="BiDi"/>
+        <pin num="14" name="B2" type="BiDi"/>
+        <pin num="15" name="B3" type="BiDi"/>
+        <pin num="16" name="B1" type="BiDi"/>
+        <pin num="17" name="F7" type="BiDi"/>
+        <pin num="18" name="F6" type="BiDi"/>
+        <pin num="19" name="F5" type="BiDi"/>
+        <pin num="20" name="F4" type="BiDi"/>
+        <pin num="21" name="VCC" type="power_in"/>
+        <pin num="22" name="RST" type="input"/>
+        <pin num="23" name="GND" type="power_in"/>
+        <pin num="24" name="RAW" type="power_out"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="CherryMX">
+      <uri>D:\Projects\Misc\KiCad\numpad\PCB/kicad-libraries/symbols/CherryMX.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="SSD1306-128x64_OLED">
+      <uri>D:\Projects\Misc\KiCad\numpad\PCB/KiCad-SSD1306-128x64/library/SSD1306-128x64_OLED.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Switch.lib</uri>
+    </library>
+    <library logical="promicro">
+      <uri>D:\Projects\Misc\KiCad\numpad\PCB/ProMicroKiCad/promicro_library/promicro.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(MX12-Pad5)">
+      <node ref="MX13" pin="4"/>
+      <node ref="MX12" pin="5"/>
+    </net>
+    <net code="2" name="Net-(MX13-Pad5)">
+      <node ref="MX14" pin="4"/>
+      <node ref="MX13" pin="5"/>
+    </net>
+    <net code="3" name="DOUT3">
+      <node ref="MX8" pin="4"/>
+      <node ref="MX11" pin="5"/>
+    </net>
+    <net code="4" name="DOUT4">
+      <node ref="MX12" pin="4"/>
+      <node ref="MX10" pin="5"/>
+    </net>
+    <net code="5" name="DOUT5">
+      <node ref="MX15" pin="4"/>
+      <node ref="MX14" pin="5"/>
+    </net>
+    <net code="6" name="Net-(D15-Pad2)">
+      <node ref="D15" pin="2"/>
+      <node ref="MX15" pin="2"/>
+    </net>
+    <net code="7" name="Net-(MX15-Pad5)">
+      <node ref="MX16" pin="4"/>
+      <node ref="MX15" pin="5"/>
+    </net>
+    <net code="8" name="+5V">
+      <node ref="LC12" pin="1"/>
+      <node ref="MX9" pin="6"/>
+      <node ref="MX8" pin="6"/>
+      <node ref="LC7" pin="1"/>
+      <node ref="MX1" pin="6"/>
+      <node ref="LC9" pin="1"/>
+      <node ref="MX10" pin="6"/>
+      <node ref="LC13" pin="1"/>
+      <node ref="MX13" pin="6"/>
+      <node ref="LC1" pin="1"/>
+      <node ref="LC17" pin="1"/>
+      <node ref="MX3" pin="6"/>
+      <node ref="MX17" pin="6"/>
+      <node ref="MX18" pin="6"/>
+      <node ref="LC2" pin="1"/>
+      <node ref="LC15" pin="1"/>
+      <node ref="LC18" pin="1"/>
+      <node ref="MX7" pin="6"/>
+      <node ref="MX11" pin="6"/>
+      <node ref="LC10" pin="1"/>
+      <node ref="U1" pin="21"/>
+      <node ref="OLED1" pin="2"/>
+      <node ref="LC8" pin="1"/>
+      <node ref="MX2" pin="6"/>
+      <node ref="R2" pin="1"/>
+      <node ref="LC14" pin="1"/>
+      <node ref="MX4" pin="6"/>
+      <node ref="J2" pin="1"/>
+      <node ref="MX14" pin="6"/>
+      <node ref="MX5" pin="6"/>
+      <node ref="LC16" pin="1"/>
+      <node ref="J1" pin="2"/>
+      <node ref="LC11" pin="1"/>
+      <node ref="LC5" pin="1"/>
+      <node ref="MX6" pin="6"/>
+      <node ref="LC6" pin="1"/>
+      <node ref="MX16" pin="6"/>
+      <node ref="MX12" pin="6"/>
+      <node ref="LC3" pin="1"/>
+      <node ref="LC4" pin="1"/>
+      <node ref="MX15" pin="6"/>
+    </net>
+    <net code="9" name="GND">
+      <node ref="J1" pin="6"/>
+      <node ref="LC5" pin="2"/>
+      <node ref="LC6" pin="2"/>
+      <node ref="LC4" pin="2"/>
+      <node ref="LC17" pin="2"/>
+      <node ref="MX4" pin="3"/>
+      <node ref="MX18" pin="3"/>
+      <node ref="LC2" pin="2"/>
+      <node ref="MX6" pin="3"/>
+      <node ref="MX9" pin="3"/>
+      <node ref="ROT2" pin="C"/>
+      <node ref="J2" pin="4"/>
+      <node ref="LC9" pin="2"/>
+      <node ref="MX1" pin="3"/>
+      <node ref="MX10" pin="3"/>
+      <node ref="LC18" pin="2"/>
+      <node ref="LC10" pin="2"/>
+      <node ref="LC15" pin="2"/>
+      <node ref="MX5" pin="3"/>
+      <node ref="LC8" pin="2"/>
+      <node ref="ROT1" pin="C"/>
+      <node ref="OLED1" pin="1"/>
+      <node ref="MX11" pin="3"/>
+      <node ref="LC12" pin="2"/>
+      <node ref="MX14" pin="3"/>
+      <node ref="MX7" pin="3"/>
+      <node ref="LC16" pin="2"/>
+      <node ref="MX8" pin="3"/>
+      <node ref="MX17" pin="3"/>
+      <node ref="MX13" pin="3"/>
+      <node ref="LC11" pin="2"/>
+      <node ref="MX12" pin="3"/>
+      <node ref="LC7" pin="2"/>
+      <node ref="LC13" pin="2"/>
+      <node ref="MX16" pin="3"/>
+      <node ref="LC3" pin="2"/>
+      <node ref="LC14" pin="2"/>
+      <node ref="LC1" pin="2"/>
+      <node ref="MX2" pin="3"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="U1" pin="4"/>
+      <node ref="MX15" pin="3"/>
+      <node ref="MX3" pin="3"/>
+      <node ref="U1" pin="23"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="10" name="Net-(D14-Pad2)">
+      <node ref="D14" pin="2"/>
+      <node ref="MX14" pin="2"/>
+    </net>
+    <net code="11" name="Net-(D16-Pad2)">
+      <node ref="D16" pin="2"/>
+      <node ref="MX16" pin="2"/>
+    </net>
+    <net code="12" name="Net-(D17-Pad2)">
+      <node ref="D17" pin="2"/>
+      <node ref="MX17" pin="2"/>
+    </net>
+    <net code="13" name="Net-(MX16-Pad5)">
+      <node ref="MX16" pin="5"/>
+      <node ref="MX17" pin="4"/>
+    </net>
+    <net code="14" name="Net-(D7-Pad2)">
+      <node ref="D7" pin="2"/>
+      <node ref="MX7" pin="2"/>
+    </net>
+    <net code="15" name="Net-(D12-Pad2)">
+      <node ref="D12" pin="2"/>
+      <node ref="MX12" pin="2"/>
+    </net>
+    <net code="16" name="Net-(D11-Pad2)">
+      <node ref="D11" pin="2"/>
+      <node ref="MX11" pin="2"/>
+    </net>
+    <net code="17" name="Net-(D13-Pad2)">
+      <node ref="MX13" pin="2"/>
+      <node ref="D13" pin="2"/>
+    </net>
+    <net code="18" name="DOUT0">
+      <node ref="MX7" pin="4"/>
+      <node ref="MX3" pin="5"/>
+    </net>
+    <net code="19" name="MISO">
+      <node ref="J1" pin="1"/>
+      <node ref="D11" pin="1"/>
+      <node ref="U1" pin="15"/>
+      <node ref="D9" pin="1"/>
+      <node ref="D10" pin="1"/>
+      <node ref="D8" pin="1"/>
+    </net>
+    <net code="20" name="MOSI">
+      <node ref="J1" pin="4"/>
+      <node ref="D14" pin="1"/>
+      <node ref="D12" pin="1"/>
+      <node ref="D13" pin="1"/>
+      <node ref="RD2" pin="1"/>
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="21" name="ROW0">
+      <node ref="D3" pin="1"/>
+      <node ref="U1" pin="17"/>
+      <node ref="D2" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="RD1" pin="1"/>
+    </net>
+    <net code="22" name="DOUT1">
+      <node ref="MX7" pin="5"/>
+      <node ref="MX4" pin="4"/>
+    </net>
+    <net code="23" name="DOUT2">
+      <node ref="MX6" pin="5"/>
+      <node ref="MX11" pin="4"/>
+    </net>
+    <net code="24" name="Net-(U1-Pad24)">
+      <node ref="U1" pin="24"/>
+    </net>
+    <net code="25" name="COL0">
+      <node ref="MX12" pin="1"/>
+      <node ref="MX1" pin="1"/>
+      <node ref="MX15" pin="1"/>
+      <node ref="MX4" pin="1"/>
+      <node ref="U1" pin="8"/>
+      <node ref="MX8" pin="1"/>
+    </net>
+    <net code="26" name="ENC_B1">
+      <node ref="ROT1" pin="B"/>
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="27" name="ROW1">
+      <node ref="J1" pin="3"/>
+      <node ref="D5" pin="1"/>
+      <node ref="D7" pin="1"/>
+      <node ref="D6" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="28" name="RST">
+      <node ref="SW1" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="U1" pin="22"/>
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="29" name="Net-(MX18-Pad5)">
+      <node ref="MX18" pin="5"/>
+    </net>
+    <net code="30" name="BKL_DATA_IN">
+      <node ref="U1" pin="20"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="31" name="Net-(D18-Pad2)">
+      <node ref="MX18" pin="2"/>
+      <node ref="D18" pin="2"/>
+    </net>
+    <net code="32" name="Net-(MX17-Pad5)">
+      <node ref="MX17" pin="5"/>
+      <node ref="MX18" pin="4"/>
+    </net>
+    <net code="33" name="ROW4">
+      <node ref="U1" pin="13"/>
+      <node ref="D17" pin="1"/>
+      <node ref="D16" pin="1"/>
+      <node ref="D18" pin="1"/>
+      <node ref="D15" pin="1"/>
+    </net>
+    <net code="34" name="TX">
+      <node ref="U1" pin="1"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="35" name="COL1">
+      <node ref="MX16" pin="1"/>
+      <node ref="MX13" pin="1"/>
+      <node ref="U1" pin="10"/>
+      <node ref="MX2" pin="1"/>
+      <node ref="MX5" pin="1"/>
+      <node ref="MX9" pin="1"/>
+    </net>
+    <net code="36" name="COL2">
+      <node ref="U1" pin="11"/>
+      <node ref="MX17" pin="1"/>
+      <node ref="MX6" pin="1"/>
+      <node ref="MX14" pin="1"/>
+      <node ref="MX3" pin="1"/>
+      <node ref="MX10" pin="1"/>
+    </net>
+    <net code="37" name="COL3">
+      <node ref="ROT1" pin="S2"/>
+      <node ref="MX7" pin="1"/>
+      <node ref="MX18" pin="1"/>
+      <node ref="MX11" pin="1"/>
+      <node ref="U1" pin="12"/>
+      <node ref="ROT2" pin="S2"/>
+    </net>
+    <net code="38" name="ENC_B2">
+      <node ref="U1" pin="18"/>
+      <node ref="ROT2" pin="B"/>
+    </net>
+    <net code="39" name="RX">
+      <node ref="U1" pin="2"/>
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="40" name="SCL">
+      <node ref="OLED1" pin="3"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="41" name="SDA">
+      <node ref="OLED1" pin="4"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="42" name="ENC_A1">
+      <node ref="U1" pin="7"/>
+      <node ref="ROT1" pin="A"/>
+    </net>
+    <net code="43" name="ENC_A2">
+      <node ref="ROT2" pin="A"/>
+      <node ref="U1" pin="19"/>
+    </net>
+    <net code="44" name="Net-(RD2-Pad2)">
+      <node ref="RD2" pin="2"/>
+      <node ref="ROT2" pin="S1"/>
+    </net>
+    <net code="45" name="Net-(MX4-Pad5)">
+      <node ref="MX4" pin="5"/>
+      <node ref="MX5" pin="4"/>
+    </net>
+    <net code="46" name="Net-(MX5-Pad5)">
+      <node ref="MX6" pin="4"/>
+      <node ref="MX5" pin="5"/>
+    </net>
+    <net code="47" name="Net-(RD1-Pad2)">
+      <node ref="ROT1" pin="S1"/>
+      <node ref="RD1" pin="2"/>
+    </net>
+    <net code="48" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="MX1" pin="2"/>
+    </net>
+    <net code="49" name="Net-(MX1-Pad5)">
+      <node ref="MX1" pin="5"/>
+      <node ref="MX2" pin="4"/>
+    </net>
+    <net code="50" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2"/>
+      <node ref="MX4" pin="2"/>
+    </net>
+    <net code="51" name="Net-(D5-Pad2)">
+      <node ref="MX5" pin="2"/>
+      <node ref="D5" pin="2"/>
+    </net>
+    <net code="52" name="Net-(D6-Pad2)">
+      <node ref="D6" pin="2"/>
+      <node ref="MX6" pin="2"/>
+    </net>
+    <net code="53" name="Net-(D9-Pad2)">
+      <node ref="D9" pin="2"/>
+      <node ref="MX9" pin="2"/>
+    </net>
+    <net code="54" name="Net-(D10-Pad2)">
+      <node ref="D10" pin="2"/>
+      <node ref="MX10" pin="2"/>
+    </net>
+    <net code="55" name="Net-(D8-Pad2)">
+      <node ref="MX8" pin="2"/>
+      <node ref="D8" pin="2"/>
+    </net>
+    <net code="56" name="Net-(MX10-Pad4)">
+      <node ref="MX9" pin="5"/>
+      <node ref="MX10" pin="4"/>
+    </net>
+    <net code="57" name="Net-(MX8-Pad5)">
+      <node ref="MX8" pin="5"/>
+      <node ref="MX9" pin="4"/>
+    </net>
+    <net code="58" name="Net-(D2-Pad2)">
+      <node ref="MX2" pin="2"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="59" name="Net-(D3-Pad2)">
+      <node ref="MX3" pin="2"/>
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="60" name="Net-(MX1-Pad4)">
+      <node ref="MX1" pin="4"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="61" name="Net-(MX2-Pad5)">
+      <node ref="MX2" pin="5"/>
+      <node ref="MX3" pin="4"/>
+    </net>
+  </nets>
+</export>

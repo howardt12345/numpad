@@ -1,0 +1,7 @@
+Comment,Designator,Footprint,LCSC Part #
+"SOD-123 Diode, small symbol","D1,D2,D3,D4,D5,D6,D7,D8,D9,D10,D11,D12,D13,D14,D15,D16,D17,D18",D_SOD-123,C81598
+"10uF Unpolarized capacitor, small symbol","LC1,LC2,LC3,LC4,LC5,LC6,LC7,LC8,LC9,LC10,LC11,LC12,LC13,LC14,LC15,LC16,LC17,LC18",C_0805_2012Metric,C15850
+"470 Resistor, small symbol",R1,R_0805_2012Metric,C17710
+"10k Resistor, small symbol",R2,R_0805_2012Metric,C17414
+"SOD-123 Diode, small symbol","RD1,RD2",D_SOD-123,C81598
+"SW_Push Push button switch, generic, two pins",SW1,SKQG-1155865,C318884
