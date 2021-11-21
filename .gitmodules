@@ -10,3 +10,6 @@
 [submodule "PCB/KiCad-SSD1306-128x64"]
 	path = PCB/KiCad-SSD1306-128x64
 	url = https://github.com/pforrmi/KiCad-SSD1306-128x64
+[submodule "PCB/ProMicroKiCad"]
+	path = PCB/ProMicroKiCad
+	url = https://github.com/Biacco42/ProMicroKiCad
