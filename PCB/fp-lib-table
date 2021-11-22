@@ -9,4 +9,5 @@
   (lib (name CherryMX_PCB_KailhSocket_LTST-A683CEGBW-Rotated)(type KiCad)(uri ${KIPRJMOD}/kicad-libraries/footprints/CherryMX_PCB_KailhSocket_LTST-A683CEGBW-Rotated.pretty)(options "")(descr ""))
   (lib (name CherryMX_PCB_KailhSocket_StabWireBottom_LTST-A683CEGBW-Rotated)(type KiCad)(uri ${KIPRJMOD}/kicad-libraries/footprints/CherryMX_PCB_KailhSocket_StabWireBottom_LTST-A683CEGBW-Rotated.pretty)(options "")(descr ""))
   (lib (name promicro)(type KiCad)(uri ${KIPRJMOD}/ProMicroKiCad/promicro.pretty)(options "")(descr ""))
+  (lib (name CherryMX_PCB_KailhSocket_StabWireBottom_LTST-A683CEGBW)(type KiCad)(uri ${KIPRJMOD}/kicad-libraries/footprints/CherryMX_PCB_KailhSocket_StabWireBottom_LTST-A683CEGBW.pretty)(options "")(descr ""))
 )
