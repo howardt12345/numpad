@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>D:\Projects\Misc\KiCad\numpad\PCB\numpad.sch</source>
-    <date>11/21/2021 5:14:02 PM</date>
+    <date>11/21/2021 10:55:08 PM</date>
     <tool>Eeschema (5.1.10)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -385,7 +385,7 @@
     </comp>
     <comp ref="MX11">
       <value>+</value>
-      <footprint>CherryMX_KailhSocket_StabWireBottom_LTST-A683CEGBW:CherryMX_2.00u_KailhSocket_StabWireBottom_LTST-A683CEGBW</footprint>
+      <footprint>CherryMX_PCB_KailhSocket_StabWireBottom_LTST-A683CEGBW:CherryMX_2.00u_PCB_KailhSocket_StabWireBottom_LTST-A683CEGBW</footprint>
       <fields>
         <field name="JLCPCB BOM">0</field>
       </fields>
@@ -535,7 +535,7 @@
     </comp>
     <comp ref="MX15">
       <value>0</value>
-      <footprint>CherryMX_KailhSocket_StabWireBottom_LTST-A683CEGBW:CherryMX_2.00u_KailhSocket_StabWireBottom_LTST-A683CEGBW</footprint>
+      <footprint>CherryMX_PCB_KailhSocket_StabWireBottom_LTST-A683CEGBW:CherryMX_2.00u_PCB_KailhSocket_StabWireBottom_LTST-A683CEGBW</footprint>
       <fields>
         <field name="JLCPCB BOM">0</field>
       </fields>
@@ -588,7 +588,7 @@
     </comp>
     <comp ref="MX17">
       <value>Enter</value>
-      <footprint>CherryMX_KailhSocket_StabWireBottom_LTST-A683CEGBW:CherryMX_2.00u_KailhSocket_StabWireBottom_LTST-A683CEGBW</footprint>
+      <footprint>CherryMX_PCB_KailhSocket_StabWireBottom_LTST-A683CEGBW:CherryMX_2.00u_PCB_KailhSocket_StabWireBottom_LTST-A683CEGBW</footprint>
       <fields>
         <field name="JLCPCB BOM">0</field>
       </fields>
@@ -714,6 +714,50 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6198FF4A</tstamp>
     </comp>
+    <comp ref="H1">
+      <value>Hole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB BOM">0</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6510CF3E</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>Hole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB BOM">0</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6510E748</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>Hole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB BOM">0</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6510E899</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>Hole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB BOM">0</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6510EA43</tstamp>
+    </comp>
   </components>
   <libparts>
     <libpart lib="CherryMX" part="CherryMX_LTST-A683CEGBW">
@@ -833,6 +877,20 @@
         <pin num="S2" name="S2" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
     <libpart lib="SSD1306-128x64_OLED" part="SSD1306">
       <description>SSD1306 OLED</description>
       <footprints>
@@ -904,6 +962,9 @@
     <library logical="Device">
       <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
     </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Mechanical.lib</uri>
+    </library>
     <library logical="SSD1306-128x64_OLED">
       <uri>D:\Projects\Misc\KiCad\numpad\PCB/KiCad-SSD1306-128x64/library/SSD1306-128x64_OLED.lib</uri>
     </library>
@@ -915,345 +976,349 @@
     </library>
   </libraries>
   <nets>
-    <net code="1" name="Net-(MX12-Pad5)">
-      <node ref="MX13" pin="4"/>
-      <node ref="MX12" pin="5"/>
-    </net>
-    <net code="2" name="Net-(MX13-Pad5)">
-      <node ref="MX14" pin="4"/>
-      <node ref="MX13" pin="5"/>
-    </net>
-    <net code="3" name="DOUT3">
+    <net code="1" name="DOUT3">
       <node ref="MX8" pin="4"/>
       <node ref="MX11" pin="5"/>
     </net>
-    <net code="4" name="DOUT4">
-      <node ref="MX12" pin="4"/>
+    <net code="2" name="DOUT4">
       <node ref="MX10" pin="5"/>
+      <node ref="MX12" pin="4"/>
     </net>
-    <net code="5" name="DOUT5">
-      <node ref="MX15" pin="4"/>
+    <net code="3" name="DOUT5">
       <node ref="MX14" pin="5"/>
+      <node ref="MX15" pin="4"/>
     </net>
-    <net code="6" name="Net-(D15-Pad2)">
+    <net code="4" name="Net-(D15-Pad2)">
       <node ref="D15" pin="2"/>
       <node ref="MX15" pin="2"/>
     </net>
-    <net code="7" name="Net-(MX15-Pad5)">
-      <node ref="MX16" pin="4"/>
-      <node ref="MX15" pin="5"/>
+    <net code="5" name="GND">
+      <node ref="LC13" pin="2"/>
+      <node ref="LC8" pin="2"/>
+      <node ref="MX3" pin="3"/>
+      <node ref="MX4" pin="3"/>
+      <node ref="MX7" pin="3"/>
+      <node ref="MX10" pin="3"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U1" pin="3"/>
+      <node ref="LC7" pin="2"/>
+      <node ref="LC15" pin="2"/>
+      <node ref="MX6" pin="3"/>
+      <node ref="LC2" pin="2"/>
+      <node ref="MX13" pin="3"/>
+      <node ref="MX14" pin="3"/>
+      <node ref="ROT1" pin="C"/>
+      <node ref="LC5" pin="2"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="MX18" pin="3"/>
+      <node ref="LC18" pin="2"/>
+      <node ref="MX9" pin="3"/>
+      <node ref="MX8" pin="3"/>
+      <node ref="ROT2" pin="C"/>
+      <node ref="LC6" pin="2"/>
+      <node ref="MX2" pin="3"/>
+      <node ref="U1" pin="23"/>
+      <node ref="H4" pin="1"/>
+      <node ref="H3" pin="1"/>
+      <node ref="H2" pin="1"/>
+      <node ref="H1" pin="1"/>
+      <node ref="LC14" pin="2"/>
+      <node ref="MX16" pin="3"/>
+      <node ref="MX1" pin="3"/>
+      <node ref="J1" pin="6"/>
+      <node ref="LC11" pin="2"/>
+      <node ref="LC16" pin="2"/>
+      <node ref="MX17" pin="3"/>
+      <node ref="LC10" pin="2"/>
+      <node ref="LC1" pin="2"/>
+      <node ref="LC17" pin="2"/>
+      <node ref="MX11" pin="3"/>
+      <node ref="J2" pin="4"/>
+      <node ref="LC12" pin="2"/>
+      <node ref="LC4" pin="2"/>
+      <node ref="MX15" pin="3"/>
+      <node ref="MX5" pin="3"/>
+      <node ref="LC9" pin="2"/>
+      <node ref="OLED1" pin="1"/>
+      <node ref="LC3" pin="2"/>
+      <node ref="MX12" pin="3"/>
     </net>
-    <net code="8" name="+5V">
-      <node ref="LC12" pin="1"/>
-      <node ref="MX9" pin="6"/>
-      <node ref="MX8" pin="6"/>
-      <node ref="LC7" pin="1"/>
-      <node ref="MX1" pin="6"/>
+    <net code="6" name="Net-(MX15-Pad5)">
+      <node ref="MX15" pin="5"/>
+      <node ref="MX16" pin="4"/>
+    </net>
+    <net code="7" name="+5V">
+      <node ref="MX5" pin="6"/>
+      <node ref="J2" pin="1"/>
+      <node ref="MX4" pin="6"/>
+      <node ref="LC11" pin="1"/>
+      <node ref="LC8" pin="1"/>
+      <node ref="LC15" pin="1"/>
+      <node ref="MX3" pin="6"/>
+      <node ref="OLED1" pin="2"/>
       <node ref="LC9" pin="1"/>
-      <node ref="MX10" pin="6"/>
+      <node ref="LC5" pin="1"/>
+      <node ref="LC2" pin="1"/>
+      <node ref="LC1" pin="1"/>
+      <node ref="MX2" pin="6"/>
+      <node ref="LC6" pin="1"/>
+      <node ref="MX9" pin="6"/>
+      <node ref="LC3" pin="1"/>
+      <node ref="U1" pin="21"/>
+      <node ref="LC4" pin="1"/>
+      <node ref="J1" pin="2"/>
+      <node ref="MX1" pin="6"/>
+      <node ref="MX11" pin="6"/>
+      <node ref="LC7" pin="1"/>
+      <node ref="LC12" pin="1"/>
+      <node ref="MX12" pin="6"/>
+      <node ref="MX7" pin="6"/>
       <node ref="LC13" pin="1"/>
       <node ref="MX13" pin="6"/>
-      <node ref="LC1" pin="1"/>
-      <node ref="LC17" pin="1"/>
-      <node ref="MX3" pin="6"/>
-      <node ref="MX17" pin="6"/>
-      <node ref="MX18" pin="6"/>
-      <node ref="LC2" pin="1"/>
-      <node ref="LC15" pin="1"/>
-      <node ref="LC18" pin="1"/>
-      <node ref="MX7" pin="6"/>
-      <node ref="MX11" pin="6"/>
-      <node ref="LC10" pin="1"/>
-      <node ref="U1" pin="21"/>
-      <node ref="OLED1" pin="2"/>
-      <node ref="LC8" pin="1"/>
-      <node ref="MX2" pin="6"/>
-      <node ref="R2" pin="1"/>
       <node ref="LC14" pin="1"/>
-      <node ref="MX4" pin="6"/>
-      <node ref="J2" pin="1"/>
       <node ref="MX14" pin="6"/>
-      <node ref="MX5" pin="6"/>
-      <node ref="LC16" pin="1"/>
-      <node ref="J1" pin="2"/>
-      <node ref="LC11" pin="1"/>
-      <node ref="LC5" pin="1"/>
-      <node ref="MX6" pin="6"/>
-      <node ref="LC6" pin="1"/>
-      <node ref="MX16" pin="6"/>
-      <node ref="MX12" pin="6"/>
-      <node ref="LC3" pin="1"/>
-      <node ref="LC4" pin="1"/>
       <node ref="MX15" pin="6"/>
+      <node ref="MX10" pin="6"/>
+      <node ref="LC16" pin="1"/>
+      <node ref="MX16" pin="6"/>
+      <node ref="LC17" pin="1"/>
+      <node ref="MX17" pin="6"/>
+      <node ref="LC10" pin="1"/>
+      <node ref="MX6" pin="6"/>
+      <node ref="MX18" pin="6"/>
+      <node ref="R2" pin="1"/>
+      <node ref="LC18" pin="1"/>
+      <node ref="MX8" pin="6"/>
     </net>
-    <net code="9" name="GND">
-      <node ref="J1" pin="6"/>
-      <node ref="LC5" pin="2"/>
-      <node ref="LC6" pin="2"/>
-      <node ref="LC4" pin="2"/>
-      <node ref="LC17" pin="2"/>
-      <node ref="MX4" pin="3"/>
-      <node ref="MX18" pin="3"/>
-      <node ref="LC2" pin="2"/>
-      <node ref="MX6" pin="3"/>
-      <node ref="MX9" pin="3"/>
-      <node ref="ROT2" pin="C"/>
-      <node ref="J2" pin="4"/>
-      <node ref="LC9" pin="2"/>
-      <node ref="MX1" pin="3"/>
-      <node ref="MX10" pin="3"/>
-      <node ref="LC18" pin="2"/>
-      <node ref="LC10" pin="2"/>
-      <node ref="LC15" pin="2"/>
-      <node ref="MX5" pin="3"/>
-      <node ref="LC8" pin="2"/>
-      <node ref="ROT1" pin="C"/>
-      <node ref="OLED1" pin="1"/>
-      <node ref="MX11" pin="3"/>
-      <node ref="LC12" pin="2"/>
-      <node ref="MX14" pin="3"/>
-      <node ref="MX7" pin="3"/>
-      <node ref="LC16" pin="2"/>
-      <node ref="MX8" pin="3"/>
-      <node ref="MX17" pin="3"/>
-      <node ref="MX13" pin="3"/>
-      <node ref="LC11" pin="2"/>
-      <node ref="MX12" pin="3"/>
-      <node ref="LC7" pin="2"/>
-      <node ref="LC13" pin="2"/>
-      <node ref="MX16" pin="3"/>
-      <node ref="LC3" pin="2"/>
-      <node ref="LC14" pin="2"/>
-      <node ref="LC1" pin="2"/>
-      <node ref="MX2" pin="3"/>
-      <node ref="SW1" pin="2"/>
-      <node ref="U1" pin="4"/>
-      <node ref="MX15" pin="3"/>
-      <node ref="MX3" pin="3"/>
-      <node ref="U1" pin="23"/>
-      <node ref="U1" pin="3"/>
-    </net>
-    <net code="10" name="Net-(D14-Pad2)">
+    <net code="8" name="Net-(D14-Pad2)">
       <node ref="D14" pin="2"/>
       <node ref="MX14" pin="2"/>
     </net>
+    <net code="9" name="Net-(MX12-Pad5)">
+      <node ref="MX12" pin="5"/>
+      <node ref="MX13" pin="4"/>
+    </net>
+    <net code="10" name="Net-(MX13-Pad5)">
+      <node ref="MX13" pin="5"/>
+      <node ref="MX14" pin="4"/>
+    </net>
     <net code="11" name="Net-(D16-Pad2)">
-      <node ref="D16" pin="2"/>
       <node ref="MX16" pin="2"/>
+      <node ref="D16" pin="2"/>
     </net>
     <net code="12" name="Net-(D17-Pad2)">
       <node ref="D17" pin="2"/>
       <node ref="MX17" pin="2"/>
     </net>
     <net code="13" name="Net-(MX16-Pad5)">
-      <node ref="MX16" pin="5"/>
       <node ref="MX17" pin="4"/>
+      <node ref="MX16" pin="5"/>
     </net>
     <net code="14" name="Net-(D7-Pad2)">
       <node ref="D7" pin="2"/>
       <node ref="MX7" pin="2"/>
     </net>
     <net code="15" name="Net-(D12-Pad2)">
-      <node ref="D12" pin="2"/>
       <node ref="MX12" pin="2"/>
+      <node ref="D12" pin="2"/>
     </net>
     <net code="16" name="Net-(D11-Pad2)">
       <node ref="D11" pin="2"/>
       <node ref="MX11" pin="2"/>
     </net>
     <net code="17" name="Net-(D13-Pad2)">
-      <node ref="MX13" pin="2"/>
       <node ref="D13" pin="2"/>
+      <node ref="MX13" pin="2"/>
     </net>
     <net code="18" name="DOUT0">
-      <node ref="MX7" pin="4"/>
       <node ref="MX3" pin="5"/>
+      <node ref="MX7" pin="4"/>
     </net>
-    <net code="19" name="MISO">
-      <node ref="J1" pin="1"/>
-      <node ref="D11" pin="1"/>
-      <node ref="U1" pin="15"/>
-      <node ref="D9" pin="1"/>
-      <node ref="D10" pin="1"/>
-      <node ref="D8" pin="1"/>
-    </net>
-    <net code="20" name="MOSI">
-      <node ref="J1" pin="4"/>
-      <node ref="D14" pin="1"/>
-      <node ref="D12" pin="1"/>
-      <node ref="D13" pin="1"/>
-      <node ref="RD2" pin="1"/>
-      <node ref="U1" pin="14"/>
-    </net>
-    <net code="21" name="ROW0">
-      <node ref="D3" pin="1"/>
-      <node ref="U1" pin="17"/>
-      <node ref="D2" pin="1"/>
-      <node ref="D1" pin="1"/>
-      <node ref="RD1" pin="1"/>
-    </net>
-    <net code="22" name="DOUT1">
+    <net code="19" name="DOUT1">
       <node ref="MX7" pin="5"/>
       <node ref="MX4" pin="4"/>
     </net>
-    <net code="23" name="DOUT2">
+    <net code="20" name="DOUT2">
       <node ref="MX6" pin="5"/>
       <node ref="MX11" pin="4"/>
     </net>
-    <net code="24" name="Net-(U1-Pad24)">
-      <node ref="U1" pin="24"/>
+    <net code="21" name="MISO">
+      <node ref="D8" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="D9" pin="1"/>
+      <node ref="D10" pin="1"/>
+      <node ref="D11" pin="1"/>
+      <node ref="U1" pin="15"/>
     </net>
-    <net code="25" name="COL0">
-      <node ref="MX12" pin="1"/>
-      <node ref="MX1" pin="1"/>
-      <node ref="MX15" pin="1"/>
-      <node ref="MX4" pin="1"/>
-      <node ref="U1" pin="8"/>
-      <node ref="MX8" pin="1"/>
-    </net>
-    <net code="26" name="ENC_B1">
-      <node ref="ROT1" pin="B"/>
-      <node ref="U1" pin="9"/>
-    </net>
-    <net code="27" name="ROW1">
+    <net code="22" name="ROW1">
       <node ref="J1" pin="3"/>
-      <node ref="D5" pin="1"/>
-      <node ref="D7" pin="1"/>
-      <node ref="D6" pin="1"/>
       <node ref="D4" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="D6" pin="1"/>
+      <node ref="D7" pin="1"/>
       <node ref="U1" pin="16"/>
     </net>
-    <net code="28" name="RST">
-      <node ref="SW1" pin="1"/>
-      <node ref="R2" pin="2"/>
-      <node ref="U1" pin="22"/>
-      <node ref="J1" pin="5"/>
+    <net code="23" name="MOSI">
+      <node ref="J1" pin="4"/>
+      <node ref="U1" pin="14"/>
+      <node ref="D12" pin="1"/>
+      <node ref="D14" pin="1"/>
+      <node ref="RD2" pin="1"/>
+      <node ref="D13" pin="1"/>
     </net>
-    <net code="29" name="Net-(MX18-Pad5)">
+    <net code="24" name="ROW0">
+      <node ref="D2" pin="1"/>
+      <node ref="U1" pin="17"/>
+      <node ref="D3" pin="1"/>
+      <node ref="RD1" pin="1"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="25" name="Net-(MX18-Pad5)">
       <node ref="MX18" pin="5"/>
     </net>
-    <net code="30" name="BKL_DATA_IN">
-      <node ref="U1" pin="20"/>
-      <node ref="R1" pin="2"/>
+    <net code="26" name="Net-(U1-Pad24)">
+      <node ref="U1" pin="24"/>
     </net>
-    <net code="31" name="Net-(D18-Pad2)">
+    <net code="27" name="RST">
+      <node ref="U1" pin="22"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="28" name="Net-(D18-Pad2)">
       <node ref="MX18" pin="2"/>
       <node ref="D18" pin="2"/>
     </net>
-    <net code="32" name="Net-(MX17-Pad5)">
+    <net code="29" name="Net-(MX17-Pad5)">
       <node ref="MX17" pin="5"/>
       <node ref="MX18" pin="4"/>
     </net>
-    <net code="33" name="ROW4">
-      <node ref="U1" pin="13"/>
+    <net code="30" name="ROW4">
       <node ref="D17" pin="1"/>
       <node ref="D16" pin="1"/>
-      <node ref="D18" pin="1"/>
+      <node ref="U1" pin="13"/>
       <node ref="D15" pin="1"/>
+      <node ref="D18" pin="1"/>
     </net>
-    <net code="34" name="TX">
+    <net code="31" name="BKL_DATA_IN">
+      <node ref="U1" pin="20"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="32" name="TX">
       <node ref="U1" pin="1"/>
       <node ref="J2" pin="2"/>
     </net>
-    <net code="35" name="COL1">
+    <net code="33" name="COL1">
+      <node ref="MX9" pin="1"/>
+      <node ref="MX2" pin="1"/>
       <node ref="MX16" pin="1"/>
       <node ref="MX13" pin="1"/>
-      <node ref="U1" pin="10"/>
-      <node ref="MX2" pin="1"/>
       <node ref="MX5" pin="1"/>
-      <node ref="MX9" pin="1"/>
+      <node ref="U1" pin="10"/>
     </net>
-    <net code="36" name="COL2">
+    <net code="34" name="COL2">
       <node ref="U1" pin="11"/>
-      <node ref="MX17" pin="1"/>
-      <node ref="MX6" pin="1"/>
       <node ref="MX14" pin="1"/>
+      <node ref="MX17" pin="1"/>
       <node ref="MX3" pin="1"/>
+      <node ref="MX6" pin="1"/>
       <node ref="MX10" pin="1"/>
     </net>
-    <net code="37" name="COL3">
-      <node ref="ROT1" pin="S2"/>
-      <node ref="MX7" pin="1"/>
+    <net code="35" name="COL3">
       <node ref="MX18" pin="1"/>
-      <node ref="MX11" pin="1"/>
       <node ref="U1" pin="12"/>
       <node ref="ROT2" pin="S2"/>
+      <node ref="ROT1" pin="S2"/>
+      <node ref="MX11" pin="1"/>
+      <node ref="MX7" pin="1"/>
     </net>
-    <net code="38" name="ENC_B2">
-      <node ref="U1" pin="18"/>
+    <net code="36" name="ENC_B2">
       <node ref="ROT2" pin="B"/>
+      <node ref="U1" pin="18"/>
     </net>
-    <net code="39" name="RX">
-      <node ref="U1" pin="2"/>
-      <node ref="J2" pin="3"/>
+    <net code="37" name="COL0">
+      <node ref="MX1" pin="1"/>
+      <node ref="MX15" pin="1"/>
+      <node ref="MX8" pin="1"/>
+      <node ref="MX12" pin="1"/>
+      <node ref="MX4" pin="1"/>
+      <node ref="U1" pin="8"/>
     </net>
-    <net code="40" name="SCL">
-      <node ref="OLED1" pin="3"/>
+    <net code="38" name="ENC_B1">
+      <node ref="ROT1" pin="B"/>
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="39" name="SCL">
       <node ref="U1" pin="6"/>
+      <node ref="OLED1" pin="3"/>
     </net>
-    <net code="41" name="SDA">
-      <node ref="OLED1" pin="4"/>
+    <net code="40" name="SDA">
       <node ref="U1" pin="5"/>
+      <node ref="OLED1" pin="4"/>
     </net>
-    <net code="42" name="ENC_A1">
-      <node ref="U1" pin="7"/>
+    <net code="41" name="ENC_A1">
       <node ref="ROT1" pin="A"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="42" name="Net-(RD1-Pad2)">
+      <node ref="ROT1" pin="S1"/>
+      <node ref="RD1" pin="2"/>
     </net>
     <net code="43" name="ENC_A2">
-      <node ref="ROT2" pin="A"/>
       <node ref="U1" pin="19"/>
+      <node ref="ROT2" pin="A"/>
     </net>
     <net code="44" name="Net-(RD2-Pad2)">
-      <node ref="RD2" pin="2"/>
       <node ref="ROT2" pin="S1"/>
+      <node ref="RD2" pin="2"/>
     </net>
     <net code="45" name="Net-(MX4-Pad5)">
       <node ref="MX4" pin="5"/>
       <node ref="MX5" pin="4"/>
     </net>
     <net code="46" name="Net-(MX5-Pad5)">
-      <node ref="MX6" pin="4"/>
       <node ref="MX5" pin="5"/>
+      <node ref="MX6" pin="4"/>
     </net>
-    <net code="47" name="Net-(RD1-Pad2)">
-      <node ref="ROT1" pin="S1"/>
-      <node ref="RD1" pin="2"/>
-    </net>
-    <net code="48" name="Net-(D1-Pad2)">
-      <node ref="D1" pin="2"/>
+    <net code="47" name="Net-(D1-Pad2)">
       <node ref="MX1" pin="2"/>
+      <node ref="D1" pin="2"/>
     </net>
-    <net code="49" name="Net-(MX1-Pad5)">
-      <node ref="MX1" pin="5"/>
+    <net code="48" name="Net-(MX1-Pad5)">
       <node ref="MX2" pin="4"/>
+      <node ref="MX1" pin="5"/>
+    </net>
+    <net code="49" name="RX">
+      <node ref="U1" pin="2"/>
+      <node ref="J2" pin="3"/>
     </net>
     <net code="50" name="Net-(D4-Pad2)">
       <node ref="D4" pin="2"/>
       <node ref="MX4" pin="2"/>
     </net>
     <net code="51" name="Net-(D5-Pad2)">
-      <node ref="MX5" pin="2"/>
       <node ref="D5" pin="2"/>
+      <node ref="MX5" pin="2"/>
     </net>
     <net code="52" name="Net-(D6-Pad2)">
-      <node ref="D6" pin="2"/>
       <node ref="MX6" pin="2"/>
+      <node ref="D6" pin="2"/>
     </net>
     <net code="53" name="Net-(D9-Pad2)">
-      <node ref="D9" pin="2"/>
       <node ref="MX9" pin="2"/>
+      <node ref="D9" pin="2"/>
     </net>
     <net code="54" name="Net-(D10-Pad2)">
-      <node ref="D10" pin="2"/>
       <node ref="MX10" pin="2"/>
+      <node ref="D10" pin="2"/>
     </net>
     <net code="55" name="Net-(D8-Pad2)">
-      <node ref="MX8" pin="2"/>
       <node ref="D8" pin="2"/>
+      <node ref="MX8" pin="2"/>
     </net>
     <net code="56" name="Net-(MX10-Pad4)">
-      <node ref="MX9" pin="5"/>
       <node ref="MX10" pin="4"/>
+      <node ref="MX9" pin="5"/>
     </net>
     <net code="57" name="Net-(MX8-Pad5)">
       <node ref="MX8" pin="5"/>
@@ -1267,13 +1332,13 @@
       <node ref="MX3" pin="2"/>
       <node ref="D3" pin="2"/>
     </net>
-    <net code="60" name="Net-(MX1-Pad4)">
-      <node ref="MX1" pin="4"/>
-      <node ref="R1" pin="1"/>
-    </net>
-    <net code="61" name="Net-(MX2-Pad5)">
-      <node ref="MX2" pin="5"/>
+    <net code="60" name="Net-(MX2-Pad5)">
       <node ref="MX3" pin="4"/>
+      <node ref="MX2" pin="5"/>
+    </net>
+    <net code="61" name="Net-(MX1-Pad4)">
+      <node ref="R1" pin="1"/>
+      <node ref="MX1" pin="4"/>
     </net>
   </nets>
 </export>

@@ -7,14 +7,14 @@
       "Application": "Pcbnew",
       "Version":     "(5.1.10)-1"
     },
-    "CreationDate":  "2021-11-21T17:13:45-05:00"
+    "CreationDate":  "2021-11-21T22:53:37-05:00"
   },
   "GeneralSpecs":
   {
     "ProjectId":
     {
-      "Name": "numpad",
-      "GUID": "6e756d70-6164-42e6-9b69-6361645f7063",
+      "Name": "numpad - plate",
+      "GUID": "6e756d70-6164-4202-9d20-706c6174652e",
       "Revision": "rev?"
     },
     "Size":
@@ -32,7 +32,6 @@
       "PadToPad":  0.200,
       "PadToTrack":  0.200,
       "TrackToTrack":  0.200,
-      "MinLineWidth":  0.250,
       "TrackToRegion":  0.508,
       "RegionToRegion":  0.508
     }
@@ -40,47 +39,47 @@
   "FilesAttributes":
   [
     {
-      "Path":  "numpad-F_Cu.gbr",
+      "Path":  "numpad - plate-F_Cu.gbr",
       "FileFunction":  "Copper,L1,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "numpad-B_Cu.gbr",
+      "Path":  "numpad - plate-B_Cu.gbr",
       "FileFunction":  "Copper,L2,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "numpad-F_Paste.gbr",
+      "Path":  "numpad - plate-F_Paste.gbr",
       "FileFunction":  "SolderPaste,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "numpad-B_Paste.gbr",
+      "Path":  "numpad - plate-B_Paste.gbr",
       "FileFunction":  "SolderPaste,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "numpad-F_SilkS.gbr",
+      "Path":  "numpad - plate-F_SilkS.gbr",
       "FileFunction":  "Legend,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "numpad-B_SilkS.gbr",
+      "Path":  "numpad - plate-B_SilkS.gbr",
       "FileFunction":  "Legend,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "numpad-F_Mask.gbr",
+      "Path":  "numpad - plate-F_Mask.gbr",
       "FileFunction":  "SolderMask,Top",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "numpad-B_Mask.gbr",
+      "Path":  "numpad - plate-B_Mask.gbr",
       "FileFunction":  "SolderMask,Bot",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "numpad-Edge_Cuts.gbr",
+      "Path":  "numpad - plate-Edge_Cuts.gbr",
       "FileFunction":  "Profile",
       "FilePolarity":  "Positive"
     }

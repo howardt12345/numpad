@@ -2266,6 +2266,7 @@ F 0 "H1" H 4500 6949 50  0000 L CNN
 F 1 "Hole" H 4500 6858 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 4400 6900 50  0001 C CNN
 F 3 "~" H 4400 6900 50  0001 C CNN
+F 4 "0" H 4400 6900 50  0001 C CNN "JLCPCB BOM"
 	1    4400 6900
 	1    0    0    -1  
 $EndComp
@@ -2288,6 +2289,7 @@ F 0 "H2" H 4850 6949 50  0000 L CNN
 F 1 "Hole" H 4850 6858 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 4750 6900 50  0001 C CNN
 F 3 "~" H 4750 6900 50  0001 C CNN
+F 4 "0" H 4750 6900 50  0001 C CNN "JLCPCB BOM"
 	1    4750 6900
 	1    0    0    -1  
 $EndComp
@@ -2299,6 +2301,7 @@ F 0 "H3" H 5200 6949 50  0000 L CNN
 F 1 "Hole" H 5200 6858 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 5100 6900 50  0001 C CNN
 F 3 "~" H 5100 6900 50  0001 C CNN
+F 4 "0" H 5100 6900 50  0001 C CNN "JLCPCB BOM"
 	1    5100 6900
 	1    0    0    -1  
 $EndComp
@@ -2310,6 +2313,7 @@ F 0 "H4" H 5550 6949 50  0000 L CNN
 F 1 "Hole" H 5550 6858 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 5450 6900 50  0001 C CNN
 F 3 "~" H 5450 6900 50  0001 C CNN
+F 4 "0" H 5450 6900 50  0001 C CNN "JLCPCB BOM"
 	1    5450 6900
 	1    0    0    -1  
 $EndComp
