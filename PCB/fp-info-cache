@@ -1,4 +1,4 @@
-19651611729915710
+19648327128635037
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -84671,20 +84671,6 @@ CherryMX 6.25u PCB KailhSocket LTST-A683CEGBW
 0
 6
 6
-custom_footprints
-MX_FMask-2u-with-cutout
-
-
-0
-2
-1
-custom_footprints
-MX_FMask-with-cutout
-
-
-0
-2
-1
 custom_footprints
 logo
 Converted using: svg2mod -i Untitled-1.svg -o ./custom-footprints.pretty/logo -f 1 --name logo
