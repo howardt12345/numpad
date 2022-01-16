@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>D:\Projects\Misc\KiCad\numpad\PCB\numpad.sch</source>
-    <date>11/21/2021 10:55:08 PM</date>
+    <date>1/15/2022 8:05:13 PM</date>
     <tool>Eeschema (5.1.10)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -34,7 +34,7 @@
       <value>7</value>
       <footprint>CherryMX_PCB_KailhSocket_LTST-A683CEGBW:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW</footprint>
       <fields>
-        <field name="JLCPCB BOM">0</field>
+        <field name="LCSC Part">C524051</field>
       </fields>
       <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW" description=""/>
       <sheetpath names="/" tstamps="/"/>
@@ -42,10 +42,10 @@
     </comp>
     <comp ref="D4">
       <value>SOD-123</value>
-      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC Part">C81598</field>
+        <field name="LCSC Part">C2128</field>
       </fields>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -66,7 +66,7 @@
       <value>8</value>
       <footprint>CherryMX_PCB_KailhSocket_LTST-A683CEGBW:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW</footprint>
       <fields>
-        <field name="JLCPCB BOM">0</field>
+        <field name="LCSC Part">C524051</field>
       </fields>
       <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW" description=""/>
       <sheetpath names="/" tstamps="/"/>
@@ -74,10 +74,10 @@
     </comp>
     <comp ref="D5">
       <value>SOD-123</value>
-      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC Part">C81598</field>
+        <field name="LCSC Part">C2128</field>
       </fields>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -98,7 +98,7 @@
       <value>9</value>
       <footprint>CherryMX_PCB_KailhSocket_LTST-A683CEGBW:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW</footprint>
       <fields>
-        <field name="JLCPCB BOM">0</field>
+        <field name="LCSC Part">C524051</field>
       </fields>
       <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW" description=""/>
       <sheetpath names="/" tstamps="/"/>
@@ -106,10 +106,10 @@
     </comp>
     <comp ref="D6">
       <value>SOD-123</value>
-      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC Part">C81598</field>
+        <field name="LCSC Part">C2128</field>
       </fields>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -171,10 +171,10 @@
     </comp>
     <comp ref="RD2">
       <value>SOD-123</value>
-      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC Part">C81598</field>
+        <field name="LCSC Part">C2128</field>
       </fields>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -182,10 +182,10 @@
     </comp>
     <comp ref="RD1">
       <value>SOD-123</value>
-      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC Part">C81598</field>
+        <field name="LCSC Part">C2128</field>
       </fields>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -195,7 +195,7 @@
       <value>NUM_LOCK</value>
       <footprint>CherryMX_PCB_KailhSocket_LTST-A683CEGBW:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW</footprint>
       <fields>
-        <field name="JLCPCB BOM">0</field>
+        <field name="LCSC Part">C524051</field>
       </fields>
       <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW" description=""/>
       <sheetpath names="/" tstamps="/"/>
@@ -203,10 +203,10 @@
     </comp>
     <comp ref="D1">
       <value>SOD-123</value>
-      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC Part">C81598</field>
+        <field name="LCSC Part">C2128</field>
       </fields>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -227,7 +227,7 @@
       <value>/</value>
       <footprint>CherryMX_PCB_KailhSocket_LTST-A683CEGBW:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW</footprint>
       <fields>
-        <field name="JLCPCB BOM">0</field>
+        <field name="LCSC Part">C524051</field>
       </fields>
       <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW" description=""/>
       <sheetpath names="/" tstamps="/"/>
@@ -235,10 +235,10 @@
     </comp>
     <comp ref="D2">
       <value>SOD-123</value>
-      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC Part">C81598</field>
+        <field name="LCSC Part">C2128</field>
       </fields>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -259,7 +259,7 @@
       <value>*</value>
       <footprint>CherryMX_PCB_KailhSocket_LTST-A683CEGBW:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW</footprint>
       <fields>
-        <field name="JLCPCB BOM">0</field>
+        <field name="LCSC Part">C524051</field>
       </fields>
       <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW" description=""/>
       <sheetpath names="/" tstamps="/"/>
@@ -267,10 +267,10 @@
     </comp>
     <comp ref="D3">
       <value>SOD-123</value>
-      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC Part">C81598</field>
+        <field name="LCSC Part">C2128</field>
       </fields>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -302,7 +302,7 @@
       <value>4</value>
       <footprint>CherryMX_PCB_KailhSocket_LTST-A683CEGBW:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW</footprint>
       <fields>
-        <field name="JLCPCB BOM">0</field>
+        <field name="LCSC Part">C524051</field>
       </fields>
       <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW" description=""/>
       <sheetpath names="/" tstamps="/"/>
@@ -310,10 +310,10 @@
     </comp>
     <comp ref="D8">
       <value>SOD-123</value>
-      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC Part">C81598</field>
+        <field name="LCSC Part">C2128</field>
       </fields>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -323,7 +323,7 @@
       <value>5</value>
       <footprint>CherryMX_PCB_KailhSocket_LTST-A683CEGBW:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW</footprint>
       <fields>
-        <field name="JLCPCB BOM">0</field>
+        <field name="LCSC Part">C524051</field>
       </fields>
       <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW" description=""/>
       <sheetpath names="/" tstamps="/"/>
@@ -331,10 +331,10 @@
     </comp>
     <comp ref="D9">
       <value>SOD-123</value>
-      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC Part">C81598</field>
+        <field name="LCSC Part">C2128</field>
       </fields>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -355,7 +355,7 @@
       <value>6</value>
       <footprint>CherryMX_PCB_KailhSocket_LTST-A683CEGBW:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW</footprint>
       <fields>
-        <field name="JLCPCB BOM">0</field>
+        <field name="LCSC Part">C524051</field>
       </fields>
       <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW" description=""/>
       <sheetpath names="/" tstamps="/"/>
@@ -363,10 +363,10 @@
     </comp>
     <comp ref="D10">
       <value>SOD-123</value>
-      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC Part">C81598</field>
+        <field name="LCSC Part">C2128</field>
       </fields>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -387,7 +387,7 @@
       <value>+</value>
       <footprint>CherryMX_PCB_KailhSocket_StabWireBottom_LTST-A683CEGBW:CherryMX_2.00u_PCB_KailhSocket_StabWireBottom_LTST-A683CEGBW</footprint>
       <fields>
-        <field name="JLCPCB BOM">0</field>
+        <field name="LCSC Part">C524051</field>
       </fields>
       <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW" description=""/>
       <sheetpath names="/" tstamps="/"/>
@@ -395,10 +395,10 @@
     </comp>
     <comp ref="D11">
       <value>SOD-123</value>
-      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC Part">C81598</field>
+        <field name="LCSC Part">C2128</field>
       </fields>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -417,10 +417,10 @@
     </comp>
     <comp ref="D7">
       <value>SOD-123</value>
-      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC Part">C81598</field>
+        <field name="LCSC Part">C2128</field>
       </fields>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -441,7 +441,7 @@
       <value>1</value>
       <footprint>CherryMX_PCB_KailhSocket_LTST-A683CEGBW:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW</footprint>
       <fields>
-        <field name="JLCPCB BOM">0</field>
+        <field name="LCSC Part">C524051</field>
       </fields>
       <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW" description=""/>
       <sheetpath names="/" tstamps="/"/>
@@ -449,10 +449,10 @@
     </comp>
     <comp ref="D12">
       <value>SOD-123</value>
-      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC Part">C81598</field>
+        <field name="LCSC Part">C2128</field>
       </fields>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -473,7 +473,7 @@
       <value>2</value>
       <footprint>CherryMX_PCB_KailhSocket_LTST-A683CEGBW:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW</footprint>
       <fields>
-        <field name="JLCPCB BOM">0</field>
+        <field name="LCSC Part">C524051</field>
       </fields>
       <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW" description=""/>
       <sheetpath names="/" tstamps="/"/>
@@ -481,10 +481,10 @@
     </comp>
     <comp ref="D13">
       <value>SOD-123</value>
-      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC Part">C81598</field>
+        <field name="LCSC Part">C2128</field>
       </fields>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -505,7 +505,7 @@
       <value>3</value>
       <footprint>CherryMX_PCB_KailhSocket_LTST-A683CEGBW:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW</footprint>
       <fields>
-        <field name="JLCPCB BOM">0</field>
+        <field name="LCSC Part">C524051</field>
       </fields>
       <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW" description=""/>
       <sheetpath names="/" tstamps="/"/>
@@ -513,10 +513,10 @@
     </comp>
     <comp ref="D14">
       <value>SOD-123</value>
-      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC Part">C81598</field>
+        <field name="LCSC Part">C2128</field>
       </fields>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -537,7 +537,7 @@
       <value>0</value>
       <footprint>CherryMX_PCB_KailhSocket_StabWireBottom_LTST-A683CEGBW:CherryMX_2.00u_PCB_KailhSocket_StabWireBottom_LTST-A683CEGBW</footprint>
       <fields>
-        <field name="JLCPCB BOM">0</field>
+        <field name="LCSC Part">C524051</field>
       </fields>
       <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW" description=""/>
       <sheetpath names="/" tstamps="/"/>
@@ -545,10 +545,10 @@
     </comp>
     <comp ref="D15">
       <value>SOD-123</value>
-      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC Part">C81598</field>
+        <field name="LCSC Part">C2128</field>
       </fields>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -558,7 +558,7 @@
       <value>.</value>
       <footprint>CherryMX_PCB_KailhSocket_LTST-A683CEGBW:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW</footprint>
       <fields>
-        <field name="JLCPCB BOM">0</field>
+        <field name="LCSC Part">C524051</field>
       </fields>
       <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW" description=""/>
       <sheetpath names="/" tstamps="/"/>
@@ -566,10 +566,10 @@
     </comp>
     <comp ref="D16">
       <value>SOD-123</value>
-      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC Part">C81598</field>
+        <field name="LCSC Part">C2128</field>
       </fields>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -590,7 +590,7 @@
       <value>Enter</value>
       <footprint>CherryMX_PCB_KailhSocket_StabWireBottom_LTST-A683CEGBW:CherryMX_2.00u_PCB_KailhSocket_StabWireBottom_LTST-A683CEGBW</footprint>
       <fields>
-        <field name="JLCPCB BOM">0</field>
+        <field name="LCSC Part">C524051</field>
       </fields>
       <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW" description=""/>
       <sheetpath names="/" tstamps="/"/>
@@ -598,10 +598,10 @@
     </comp>
     <comp ref="D17">
       <value>SOD-123</value>
-      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC Part">C81598</field>
+        <field name="LCSC Part">C2128</field>
       </fields>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -619,10 +619,10 @@
       <tstamp>63BAECA7</tstamp>
     </comp>
     <comp ref="MX18">
-      <value>Backspace</value>
-      <footprint>CherryMX_PCB_KailhSocket_LTST-A683CEGBW:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW</footprint>
+      <value>Alt</value>
+      <footprint>CherryMX_PCB_KailhSocket_LTST-A683CEGBW:CherryMX_1.50u_PCB_KailhSocket_LTST-A683CEGBW</footprint>
       <fields>
-        <field name="JLCPCB BOM">0</field>
+        <field name="LCSC Part">C524051</field>
       </fields>
       <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW" description=""/>
       <sheetpath names="/" tstamps="/"/>
@@ -630,10 +630,10 @@
     </comp>
     <comp ref="D18">
       <value>SOD-123</value>
-      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC Part">C81598</field>
+        <field name="LCSC Part">C2128</field>
       </fields>
       <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
@@ -686,7 +686,7 @@
       <value>-</value>
       <footprint>CherryMX_PCB_KailhSocket_LTST-A683CEGBW:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW</footprint>
       <fields>
-        <field name="JLCPCB BOM">0</field>
+        <field name="LCSC Part">C524051</field>
       </fields>
       <libsource lib="CherryMX" part="CherryMX_LTST-A683CEGBW" description=""/>
       <sheetpath names="/" tstamps="/"/>
@@ -757,6 +757,39 @@
       <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6510EA43</tstamp>
+    </comp>
+    <comp ref="LOGO1">
+      <value>Logo_Open_Hardware_Small</value>
+      <footprint>custom_footprints:logo</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB BOM">0</field>
+      </fields>
+      <libsource lib="Graphic" part="Logo_Open_Hardware_Small" description="Open Hardware logo, small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61E7A8C2</tstamp>
+    </comp>
+    <comp ref="LOGO2">
+      <value>Logo_Open_Hardware_Small</value>
+      <footprint>custom_footprints:qmk_logo</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB BOM">0</field>
+      </fields>
+      <libsource lib="Graphic" part="Logo_Open_Hardware_Small" description="Open Hardware logo, small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61E89434</tstamp>
+    </comp>
+    <comp ref="LOGO3">
+      <value>Logo_Open_Hardware_Small</value>
+      <footprint>custom_footprints:vial_logo</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB BOM">0</field>
+      </fields>
+      <libsource lib="Graphic" part="Logo_Open_Hardware_Small" description="Open Hardware logo, small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6234671D</tstamp>
     </comp>
   </components>
   <libparts>
@@ -877,6 +910,14 @@
         <pin num="S2" name="S2" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Graphic" part="Logo_Open_Hardware_Small">
+      <description>Open Hardware logo, small</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">#LOGO</field>
+        <field name="Value">Logo_Open_Hardware_Small</field>
+      </fields>
+    </libpart>
     <libpart lib="Mechanical" part="MountingHole_Pad">
       <description>Mounting Hole with connection</description>
       <docs>~</docs>
@@ -962,6 +1003,9 @@
     <library logical="Device">
       <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
     </library>
+    <library logical="Graphic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Graphic.lib</uri>
+    </library>
     <library logical="Mechanical">
       <uri>C:\Program Files\KiCad\share\kicad\library/Mechanical.lib</uri>
     </library>
@@ -981,197 +1025,197 @@
       <node ref="MX11" pin="5"/>
     </net>
     <net code="2" name="DOUT4">
-      <node ref="MX10" pin="5"/>
       <node ref="MX12" pin="4"/>
+      <node ref="MX10" pin="5"/>
     </net>
     <net code="3" name="DOUT5">
       <node ref="MX14" pin="5"/>
       <node ref="MX15" pin="4"/>
     </net>
     <net code="4" name="Net-(D15-Pad2)">
-      <node ref="D15" pin="2"/>
       <node ref="MX15" pin="2"/>
+      <node ref="D15" pin="2"/>
     </net>
     <net code="5" name="GND">
-      <node ref="LC13" pin="2"/>
-      <node ref="LC8" pin="2"/>
-      <node ref="MX3" pin="3"/>
-      <node ref="MX4" pin="3"/>
-      <node ref="MX7" pin="3"/>
-      <node ref="MX10" pin="3"/>
+      <node ref="MX8" pin="3"/>
       <node ref="U1" pin="4"/>
       <node ref="U1" pin="3"/>
-      <node ref="LC7" pin="2"/>
-      <node ref="LC15" pin="2"/>
-      <node ref="MX6" pin="3"/>
-      <node ref="LC2" pin="2"/>
-      <node ref="MX13" pin="3"/>
-      <node ref="MX14" pin="3"/>
-      <node ref="ROT1" pin="C"/>
-      <node ref="LC5" pin="2"/>
-      <node ref="SW1" pin="2"/>
-      <node ref="MX18" pin="3"/>
-      <node ref="LC18" pin="2"/>
-      <node ref="MX9" pin="3"/>
-      <node ref="MX8" pin="3"/>
-      <node ref="ROT2" pin="C"/>
-      <node ref="LC6" pin="2"/>
-      <node ref="MX2" pin="3"/>
       <node ref="U1" pin="23"/>
+      <node ref="LC18" pin="2"/>
+      <node ref="ROT1" pin="C"/>
+      <node ref="LC15" pin="2"/>
+      <node ref="LC8" pin="2"/>
+      <node ref="MX2" pin="3"/>
       <node ref="H4" pin="1"/>
       <node ref="H3" pin="1"/>
       <node ref="H2" pin="1"/>
       <node ref="H1" pin="1"/>
-      <node ref="LC14" pin="2"/>
-      <node ref="MX16" pin="3"/>
-      <node ref="MX1" pin="3"/>
+      <node ref="MX7" pin="3"/>
+      <node ref="LC13" pin="2"/>
+      <node ref="MX13" pin="3"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="MX18" pin="3"/>
+      <node ref="LC5" pin="2"/>
+      <node ref="MX11" pin="3"/>
+      <node ref="LC6" pin="2"/>
+      <node ref="MX4" pin="3"/>
       <node ref="J1" pin="6"/>
       <node ref="LC11" pin="2"/>
-      <node ref="LC16" pin="2"/>
-      <node ref="MX17" pin="3"/>
+      <node ref="MX9" pin="3"/>
       <node ref="LC10" pin="2"/>
-      <node ref="LC1" pin="2"/>
-      <node ref="LC17" pin="2"/>
-      <node ref="MX11" pin="3"/>
-      <node ref="J2" pin="4"/>
-      <node ref="LC12" pin="2"/>
-      <node ref="LC4" pin="2"/>
-      <node ref="MX15" pin="3"/>
-      <node ref="MX5" pin="3"/>
       <node ref="LC9" pin="2"/>
+      <node ref="MX5" pin="3"/>
+      <node ref="MX10" pin="3"/>
+      <node ref="MX6" pin="3"/>
+      <node ref="LC1" pin="2"/>
+      <node ref="MX1" pin="3"/>
       <node ref="OLED1" pin="1"/>
+      <node ref="LC2" pin="2"/>
+      <node ref="MX3" pin="3"/>
+      <node ref="LC4" pin="2"/>
+      <node ref="ROT2" pin="C"/>
+      <node ref="J2" pin="4"/>
+      <node ref="LC17" pin="2"/>
+      <node ref="LC7" pin="2"/>
+      <node ref="MX17" pin="3"/>
       <node ref="LC3" pin="2"/>
+      <node ref="MX14" pin="3"/>
       <node ref="MX12" pin="3"/>
+      <node ref="LC16" pin="2"/>
+      <node ref="LC12" pin="2"/>
+      <node ref="LC14" pin="2"/>
+      <node ref="MX16" pin="3"/>
+      <node ref="MX15" pin="3"/>
     </net>
     <net code="6" name="Net-(MX15-Pad5)">
       <node ref="MX15" pin="5"/>
       <node ref="MX16" pin="4"/>
     </net>
     <net code="7" name="+5V">
-      <node ref="MX5" pin="6"/>
-      <node ref="J2" pin="1"/>
-      <node ref="MX4" pin="6"/>
-      <node ref="LC11" pin="1"/>
-      <node ref="LC8" pin="1"/>
-      <node ref="LC15" pin="1"/>
-      <node ref="MX3" pin="6"/>
-      <node ref="OLED1" pin="2"/>
-      <node ref="LC9" pin="1"/>
-      <node ref="LC5" pin="1"/>
-      <node ref="LC2" pin="1"/>
-      <node ref="LC1" pin="1"/>
-      <node ref="MX2" pin="6"/>
-      <node ref="LC6" pin="1"/>
       <node ref="MX9" pin="6"/>
-      <node ref="LC3" pin="1"/>
-      <node ref="U1" pin="21"/>
-      <node ref="LC4" pin="1"/>
-      <node ref="J1" pin="2"/>
-      <node ref="MX1" pin="6"/>
-      <node ref="MX11" pin="6"/>
-      <node ref="LC7" pin="1"/>
-      <node ref="LC12" pin="1"/>
-      <node ref="MX12" pin="6"/>
-      <node ref="MX7" pin="6"/>
-      <node ref="LC13" pin="1"/>
-      <node ref="MX13" pin="6"/>
-      <node ref="LC14" pin="1"/>
-      <node ref="MX14" pin="6"/>
-      <node ref="MX15" pin="6"/>
       <node ref="MX10" pin="6"/>
-      <node ref="LC16" pin="1"/>
+      <node ref="LC9" pin="1"/>
+      <node ref="MX15" pin="6"/>
       <node ref="MX16" pin="6"/>
+      <node ref="MX3" pin="6"/>
+      <node ref="LC8" pin="1"/>
+      <node ref="LC3" pin="1"/>
+      <node ref="MX2" pin="6"/>
+      <node ref="LC15" pin="1"/>
+      <node ref="MX12" pin="6"/>
+      <node ref="LC2" pin="1"/>
+      <node ref="OLED1" pin="2"/>
+      <node ref="LC10" pin="1"/>
+      <node ref="LC16" pin="1"/>
+      <node ref="LC11" pin="1"/>
+      <node ref="MX5" pin="6"/>
+      <node ref="J1" pin="2"/>
+      <node ref="LC5" pin="1"/>
+      <node ref="MX4" pin="6"/>
+      <node ref="MX11" pin="6"/>
+      <node ref="LC4" pin="1"/>
+      <node ref="LC6" pin="1"/>
+      <node ref="MX1" pin="6"/>
+      <node ref="LC1" pin="1"/>
       <node ref="LC17" pin="1"/>
       <node ref="MX17" pin="6"/>
-      <node ref="LC10" pin="1"/>
+      <node ref="J2" pin="1"/>
       <node ref="MX6" pin="6"/>
-      <node ref="MX18" pin="6"/>
-      <node ref="R2" pin="1"/>
+      <node ref="LC14" pin="1"/>
       <node ref="LC18" pin="1"/>
+      <node ref="MX18" pin="6"/>
+      <node ref="LC12" pin="1"/>
+      <node ref="MX7" pin="6"/>
+      <node ref="R2" pin="1"/>
+      <node ref="MX14" pin="6"/>
+      <node ref="LC7" pin="1"/>
       <node ref="MX8" pin="6"/>
+      <node ref="MX13" pin="6"/>
+      <node ref="U1" pin="21"/>
+      <node ref="LC13" pin="1"/>
     </net>
     <net code="8" name="Net-(D14-Pad2)">
-      <node ref="D14" pin="2"/>
       <node ref="MX14" pin="2"/>
+      <node ref="D14" pin="2"/>
     </net>
     <net code="9" name="Net-(MX12-Pad5)">
-      <node ref="MX12" pin="5"/>
       <node ref="MX13" pin="4"/>
+      <node ref="MX12" pin="5"/>
     </net>
     <net code="10" name="Net-(MX13-Pad5)">
-      <node ref="MX13" pin="5"/>
       <node ref="MX14" pin="4"/>
+      <node ref="MX13" pin="5"/>
     </net>
     <net code="11" name="Net-(D16-Pad2)">
-      <node ref="MX16" pin="2"/>
       <node ref="D16" pin="2"/>
+      <node ref="MX16" pin="2"/>
     </net>
     <net code="12" name="Net-(D17-Pad2)">
       <node ref="D17" pin="2"/>
       <node ref="MX17" pin="2"/>
     </net>
     <net code="13" name="Net-(MX16-Pad5)">
-      <node ref="MX17" pin="4"/>
       <node ref="MX16" pin="5"/>
+      <node ref="MX17" pin="4"/>
     </net>
     <net code="14" name="Net-(D7-Pad2)">
       <node ref="D7" pin="2"/>
       <node ref="MX7" pin="2"/>
     </net>
     <net code="15" name="Net-(D12-Pad2)">
-      <node ref="MX12" pin="2"/>
       <node ref="D12" pin="2"/>
+      <node ref="MX12" pin="2"/>
     </net>
     <net code="16" name="Net-(D11-Pad2)">
-      <node ref="D11" pin="2"/>
       <node ref="MX11" pin="2"/>
+      <node ref="D11" pin="2"/>
     </net>
     <net code="17" name="Net-(D13-Pad2)">
       <node ref="D13" pin="2"/>
       <node ref="MX13" pin="2"/>
     </net>
     <net code="18" name="DOUT0">
-      <node ref="MX3" pin="5"/>
       <node ref="MX7" pin="4"/>
+      <node ref="MX3" pin="5"/>
     </net>
     <net code="19" name="DOUT1">
       <node ref="MX7" pin="5"/>
       <node ref="MX4" pin="4"/>
     </net>
     <net code="20" name="DOUT2">
-      <node ref="MX6" pin="5"/>
       <node ref="MX11" pin="4"/>
+      <node ref="MX6" pin="5"/>
     </net>
     <net code="21" name="MISO">
+      <node ref="D11" pin="1"/>
+      <node ref="D10" pin="1"/>
+      <node ref="D9" pin="1"/>
+      <node ref="U1" pin="15"/>
       <node ref="D8" pin="1"/>
       <node ref="J1" pin="1"/>
-      <node ref="D9" pin="1"/>
-      <node ref="D10" pin="1"/>
-      <node ref="D11" pin="1"/>
-      <node ref="U1" pin="15"/>
     </net>
     <net code="22" name="ROW1">
       <node ref="J1" pin="3"/>
-      <node ref="D4" pin="1"/>
       <node ref="D5" pin="1"/>
+      <node ref="U1" pin="16"/>
       <node ref="D6" pin="1"/>
       <node ref="D7" pin="1"/>
-      <node ref="U1" pin="16"/>
+      <node ref="D4" pin="1"/>
     </net>
     <net code="23" name="MOSI">
-      <node ref="J1" pin="4"/>
-      <node ref="U1" pin="14"/>
-      <node ref="D12" pin="1"/>
+      <node ref="D13" pin="1"/>
       <node ref="D14" pin="1"/>
       <node ref="RD2" pin="1"/>
-      <node ref="D13" pin="1"/>
+      <node ref="J1" pin="4"/>
+      <node ref="D12" pin="1"/>
+      <node ref="U1" pin="14"/>
     </net>
     <net code="24" name="ROW0">
-      <node ref="D2" pin="1"/>
       <node ref="U1" pin="17"/>
-      <node ref="D3" pin="1"/>
+      <node ref="D2" pin="1"/>
       <node ref="RD1" pin="1"/>
       <node ref="D1" pin="1"/>
+      <node ref="D3" pin="1"/>
     </net>
     <net code="25" name="Net-(MX18-Pad5)">
       <node ref="MX18" pin="5"/>
@@ -1181,76 +1225,76 @@
     </net>
     <net code="27" name="RST">
       <node ref="U1" pin="22"/>
+      <node ref="J1" pin="5"/>
       <node ref="SW1" pin="1"/>
       <node ref="R2" pin="2"/>
-      <node ref="J1" pin="5"/>
     </net>
     <net code="28" name="Net-(D18-Pad2)">
-      <node ref="MX18" pin="2"/>
       <node ref="D18" pin="2"/>
+      <node ref="MX18" pin="2"/>
     </net>
     <net code="29" name="Net-(MX17-Pad5)">
-      <node ref="MX17" pin="5"/>
       <node ref="MX18" pin="4"/>
+      <node ref="MX17" pin="5"/>
     </net>
     <net code="30" name="ROW4">
-      <node ref="D17" pin="1"/>
-      <node ref="D16" pin="1"/>
       <node ref="U1" pin="13"/>
+      <node ref="D16" pin="1"/>
       <node ref="D15" pin="1"/>
+      <node ref="D17" pin="1"/>
       <node ref="D18" pin="1"/>
     </net>
     <net code="31" name="BKL_DATA_IN">
-      <node ref="U1" pin="20"/>
       <node ref="R1" pin="2"/>
+      <node ref="U1" pin="20"/>
     </net>
     <net code="32" name="TX">
-      <node ref="U1" pin="1"/>
       <node ref="J2" pin="2"/>
+      <node ref="U1" pin="1"/>
     </net>
-    <net code="33" name="COL1">
-      <node ref="MX9" pin="1"/>
-      <node ref="MX2" pin="1"/>
-      <node ref="MX16" pin="1"/>
-      <node ref="MX13" pin="1"/>
-      <node ref="MX5" pin="1"/>
+    <net code="33" name="COL0">
+      <node ref="MX15" pin="1"/>
+      <node ref="MX4" pin="1"/>
+      <node ref="MX1" pin="1"/>
+      <node ref="MX8" pin="1"/>
+      <node ref="MX12" pin="1"/>
       <node ref="U1" pin="10"/>
     </net>
-    <net code="34" name="COL2">
+    <net code="34" name="COL1">
+      <node ref="MX2" pin="1"/>
       <node ref="U1" pin="11"/>
-      <node ref="MX14" pin="1"/>
-      <node ref="MX17" pin="1"/>
+      <node ref="MX5" pin="1"/>
+      <node ref="MX13" pin="1"/>
+      <node ref="MX9" pin="1"/>
+      <node ref="MX16" pin="1"/>
+    </net>
+    <net code="35" name="COL2">
+      <node ref="U1" pin="12"/>
       <node ref="MX3" pin="1"/>
       <node ref="MX6" pin="1"/>
       <node ref="MX10" pin="1"/>
-    </net>
-    <net code="35" name="COL3">
-      <node ref="MX18" pin="1"/>
-      <node ref="U1" pin="12"/>
-      <node ref="ROT2" pin="S2"/>
-      <node ref="ROT1" pin="S2"/>
-      <node ref="MX11" pin="1"/>
-      <node ref="MX7" pin="1"/>
+      <node ref="MX14" pin="1"/>
+      <node ref="MX17" pin="1"/>
     </net>
     <net code="36" name="ENC_B2">
       <node ref="ROT2" pin="B"/>
       <node ref="U1" pin="18"/>
     </net>
-    <net code="37" name="COL0">
-      <node ref="MX1" pin="1"/>
-      <node ref="MX15" pin="1"/>
-      <node ref="MX8" pin="1"/>
-      <node ref="MX12" pin="1"/>
-      <node ref="MX4" pin="1"/>
+    <net code="37" name="COL3">
+      <node ref="ROT1" pin="S2"/>
       <node ref="U1" pin="8"/>
+      <node ref="MX11" pin="1"/>
+      <node ref="MX7" pin="1"/>
+      <node ref="MX18" pin="1"/>
+      <node ref="ROT2" pin="S2"/>
     </net>
     <net code="38" name="ENC_B1">
       <node ref="ROT1" pin="B"/>
       <node ref="U1" pin="9"/>
     </net>
     <net code="39" name="SCL">
-      <node ref="U1" pin="6"/>
       <node ref="OLED1" pin="3"/>
+      <node ref="U1" pin="6"/>
     </net>
     <net code="40" name="SDA">
       <node ref="U1" pin="5"/>
@@ -1277,36 +1321,36 @@
       <node ref="MX5" pin="4"/>
     </net>
     <net code="46" name="Net-(MX5-Pad5)">
-      <node ref="MX5" pin="5"/>
       <node ref="MX6" pin="4"/>
+      <node ref="MX5" pin="5"/>
     </net>
     <net code="47" name="Net-(D1-Pad2)">
-      <node ref="MX1" pin="2"/>
       <node ref="D1" pin="2"/>
+      <node ref="MX1" pin="2"/>
     </net>
     <net code="48" name="Net-(MX1-Pad5)">
       <node ref="MX2" pin="4"/>
       <node ref="MX1" pin="5"/>
     </net>
     <net code="49" name="RX">
-      <node ref="U1" pin="2"/>
       <node ref="J2" pin="3"/>
+      <node ref="U1" pin="2"/>
     </net>
     <net code="50" name="Net-(D4-Pad2)">
       <node ref="D4" pin="2"/>
       <node ref="MX4" pin="2"/>
     </net>
     <net code="51" name="Net-(D5-Pad2)">
-      <node ref="D5" pin="2"/>
       <node ref="MX5" pin="2"/>
+      <node ref="D5" pin="2"/>
     </net>
     <net code="52" name="Net-(D6-Pad2)">
       <node ref="MX6" pin="2"/>
       <node ref="D6" pin="2"/>
     </net>
     <net code="53" name="Net-(D9-Pad2)">
-      <node ref="MX9" pin="2"/>
       <node ref="D9" pin="2"/>
+      <node ref="MX9" pin="2"/>
     </net>
     <net code="54" name="Net-(D10-Pad2)">
       <node ref="MX10" pin="2"/>
@@ -1317,8 +1361,8 @@
       <node ref="MX8" pin="2"/>
     </net>
     <net code="56" name="Net-(MX10-Pad4)">
-      <node ref="MX10" pin="4"/>
       <node ref="MX9" pin="5"/>
+      <node ref="MX10" pin="4"/>
     </net>
     <net code="57" name="Net-(MX8-Pad5)">
       <node ref="MX8" pin="5"/>
@@ -1333,12 +1377,12 @@
       <node ref="D3" pin="2"/>
     </net>
     <net code="60" name="Net-(MX2-Pad5)">
-      <node ref="MX3" pin="4"/>
       <node ref="MX2" pin="5"/>
+      <node ref="MX3" pin="4"/>
     </net>
     <net code="61" name="Net-(MX1-Pad4)">
-      <node ref="R1" pin="1"/>
       <node ref="MX1" pin="4"/>
+      <node ref="R1" pin="1"/>
     </net>
   </nets>
 </export>
