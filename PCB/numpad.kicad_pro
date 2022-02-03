@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 1.1,
+          "width": 1.8
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -422,6 +422,10 @@
     [
       "d8603679-3e7b-4337-8dbc-1827f5f54d8a",
       ""
+    ],
+    [
+      "6eedbfde-f698-4972-8341-01f795b14464",
+      "RGB LEDs"
     ]
   ],
   "text_variables": {}
